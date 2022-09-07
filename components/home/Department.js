@@ -77,7 +77,7 @@ export function FlexBig({ linkSrc, src, heading, text }) {
             fontFamily={"bukraregular"}
             display={{ base: "none", md: "block", xl: "block" }}
             pt={5}
-            lineHeight={1}
+        lineHeight="1.6"
             color={"#fff"}
             w={"70%"}
             fontSize={["sm", "sm", "md"]}
@@ -158,7 +158,7 @@ export function FlexSmall({ linkSrc, src, heading, text }) {
             fontFamily={"bukraregular"}
             display={{ base: "none", md: "block", xl: "block" }}
             pt={5}
-            lineHeight={1}
+        lineHeight="1.6"
             color={"#fff"}
             fontSize={["sm", "sm", "md"]}
             w={"70%"}
