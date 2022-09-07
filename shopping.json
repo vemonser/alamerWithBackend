@@ -1,0 +1,671 @@
+{
+  "status": 200,
+
+  "message": "categorys",
+
+  "bgImage": "",
+
+  "bgTitle": "التسوق",
+
+  "bgDescription": "تجربة تسوق فريدة تحت سقف واحد",
+
+  "data": [
+    {
+      "id": 1,
+      "bgTitle": "التسوق",
+      "bgDescription": "تجربة تسوق فريدة تحت سقف واحد",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/departmentbg-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/arturo-rey-5yP83RhaFGA-unsplash.jpg?raw=true",
+      "name": "ازياء نسائية - رجالية",
+      "desc": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "zara",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Pull & Bear",
+
+          "phone": ["01143157486", "+ 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "bgTitle": "التسوق",
+
+      "bgDescription": "تجربة تسوق فريدة تحت سقف واحد",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/departmentbg-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/the-nix-company-su6w8v_JXwo-unsplash.jpg?raw=true",
+      "name": "أزياء أطفال - حوامل",
+      "desc": " ستجدين كل ما تبحثين عنه في متاجر الأمهات والأطفال بداية من ملابس الحمل إلي ملابس الأولاد العصرية يوفر لك العامر مول كل ما تحتاجين إليه لمولودك الجديد المناسبة للجنسين ",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "bgTitle": "التسوق",
+
+      "bgDescription": "تجربة تسوق فريدة تحت سقف واحد",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/departmentbg-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/pexels-%D1%8E%D1%80%D0%B8%D0%B9-%D0%BB%D0%B0%D0%B9%D0%BC%D0%B8%D0%BD-9555099%20copy.jpg?raw=true",
+      "name": "إلكترونيات - هواتف - ديكورات المنزل",
+      "desc": " يوفر لك العامر مول الكثير من المتاجر المتخصصة بالأجهزة الإلكترونية والهواتف المحمولة والمستلزمات المنزلية لتلبي احتياجات الجميع ",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "bgTitle": "التسوق",
+
+      "bgDescription": "تجربة تسوق فريدة تحت سقف واحد",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/departmentbg-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/wu-yi-oqlEKLMmTNg-unsplash.jpg?raw=true",
+      "name": "بصريات - نظارات شمسية",
+      "desc": " يحتوي العامر مول علي مجموعة واسعة من متاجر النظارات والعدسات اللاصقة التي تتناسب مع جميع اختياراتك ",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "bgTitle": "التسوق",
+
+      "bgDescription": "تجربة تسوق فريدة تحت سقف واحد",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/departmentbg-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/pexels-alexandra-maria-336372%20(1).jpg?raw=true",
+      "name": "إكسسوارات - حقائب - احذية",
+      "desc": " يوفر العامر مول تشكيلة واسعة من متاجر الحقائب والأحذية من أحدث إصدارات الموسم ",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "bgTitle": "التسوق",
+
+      "bgDescription": "تجربة تسوق فريدة تحت سقف واحد",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/departmentbg-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/bulbul-ahmed-tJnMnFMHFm0-unsplash.jpg?raw=true",
+      "name": "ساعات - مجوهرات",
+      "desc": "يوفر العامر مول تشكيلة رائعة من متاجر الساعات والمجوهرات التي تناسب جميع الأذواق والميزانيات ",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "bgTitle": "التسوق",
+
+      "bgDescription": "تجربة تسوق فريدة تحت سقف واحد",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/departmentbg-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/WhatsApp%20Image%202022-07-14%20at%201.05.jpg?raw=true",
+      "name": "رياضة وترفيه",
+      "desc": " من الصعب تجاهل الفوائد الصحية لممارسة الرياضة والأنشطة البدنية المنتظمة ، إذ يستفيد منها الجميع بغض النظر عن السن أو الجنس أو القدرة البدنية يحتوي العامر مول علي تشكيلة واسعة من المتاجر الرياضية الكبري",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "bgTitle": "التسوق",
+
+      "bgDescription": "تجربة تسوق فريدة تحت سقف واحد",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/departmentbg-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/pexels-yulia-h-11028230.webp?raw=true",
+      "name": "صيدليات - مستحضرات تجميل - عطور - جمال",
+      "desc": " يوفر لك العامر مول الكثير من الخيارات من منتجات العناية بالبشرة الي مستحضرات التجميل ، والعطور سوف تجدين في مول ما يرضي ذوقك ويمنحك الإطلالة المثالية ",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "bgTitle": "التسوق",
+
+      "bgDescription": "تجربة تسوق فريدة تحت سقف واحد",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/departmentbg-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/pexels-said-10918358.jpg?raw=true",
+      "name": "العاب - هدايا - قرطاسية - كتب",
+      "desc": " يحتوي العامر مول علي مجموعة واسعه من المتاجر المتخصصة في ألعاب الأطفال والأدوات المكتبية وغيرها من الهدايا لتناسب جميع مناسباتك السعيدة ",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "bgTitle": "التسوق",
+      "bgDescription": "تجربة تسوق فريدة تحت سقف واحد",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/departmentbg-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/nathan-dumlao-lvWw_G8tKsk-unsplash.jpg?raw=true",
+      "name": "خدمات - متاجر متخصصة",
+      "desc": "يوفّر العامر مول الواجهة الأفضل في الاحساء للتسوّق، والترفيه، ولكنّه يحتوي أيضًا على تشكيلة واسعة من المتاجر المتخصّ صة التي تقدّم مختلف الخدمات كفروع شركات الاتصالات حيث يمكنكم شراء خطّ هاتفي جديد أو دفع الفواتير أثناء تجوّلكم في المول.",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "bgTitle": "المطاعم",
+      "bgDescription": "يوفر العامر مول تشكيلة رائعة من المطاعم التي تقدّم ما يناسب جميع الأذواق من الأطباق العربية المعاصرة وغيرها الكثير لتعيش تجربة تذوّق لذيذة",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85-min.jpg?raw=true",
+      "name": "المطاعم",
+      "desc": "",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "bgTitle": "المطاعم",
+      "bgDescription": "يوفر العامر مول تشكيلة رائعة من المطاعم التي تقدّم ما يناسب جميع الأذواق من الأطباق العربية المعاصرة وغيرها الكثير لتعيش تجربة تذوّق لذيذة",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/%D9%85%D9%82%D8%A7%D9%87%D9%8A-min.jpg?raw=true",
+      "name": "المقاهي",
+      "desc": "",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "bgTitle": "المطاعم",
+      "bgDescription": "يوفر العامر مول تشكيلة رائعة من المطاعم التي تقدّم ما يناسب جميع الأذواق من الأطباق العربية المعاصرة وغيرها الكثير لتعيش تجربة تذوّق لذيذة",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/%D8%A7%D9%84%D9%88%D8%AC%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-min.jpg?raw=true",
+      "name": "الوجبات السريعة",
+      "desc": "",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "bgTitle": "المطاعم",
+      "bgDescription": "يوفر العامر مول تشكيلة رائعة من المطاعم التي تقدّم ما يناسب جميع الأذواق من الأطباق العربية المعاصرة وغيرها الكثير لتعيش تجربة تذوّق لذيذة",
+
+      "bgImg": "https://github.com/vemonser/photos/blob/main/%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/%D8%B7%D8%B9%D8%A7%D9%85%20%D8%B5%D8%AD%D9%8A-min.jpg?raw=true",
+      "name": "طعام صحي",
+      "desc": "",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "bgTitle": "المطاعم",
+      "bgDescription": "يوفر العامر مول تشكيلة رائعة من المطاعم التي تقدّم ما يناسب جميع الأذواق من الأطباق العربية المعاصرة وغيرها الكثير لتعيش تجربة تذوّق لذيذة",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/%D8%AD%D9%84%D9%88%D9%8A%D8%A7%D8%AA-min.jpg?raw=true",
+      "name": "مطاعم متخصصة - حلويات",
+      "desc": "",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "bgTitle": "المطاعم",
+      "bgDescription": "يوفر العامر مول تشكيلة رائعة من المطاعم التي تقدّم ما يناسب جميع الأذواق من الأطباق العربية المعاصرة وغيرها الكثير لتعيش تجربة تذوّق لذيذة",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85-min.jpg?raw=true",
+      "img": "https://github.com/vemonser/photos/blob/main/024.jpg?raw=true",
+      "name": "الجلسات الخارجية",
+      "desc": "",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+
+    {
+      "id": 17,
+      "bgTitle": "الترفيه",
+      "bgDescription": "الترفيه والألعاب",
+
+      "bgImg": "https://github.com/vemonser/photos/blob/main/pexels-nothing-ahead-7451930.webp?raw=true",
+      "name": "الترفيه والألعاب",
+      "desc": "",
+      "img": "https://github.com/vemonser/photos/blob/main/pexels-nothing-ahead-7451930.webp?raw=true",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "bgTitle": "الترفيه",
+      "bgDescription": "الترفيه والألعاب",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/pexels-nothing-ahead-7451930.webp?raw=true",
+      "name": "سينما",
+      "desc": "",
+      "img": "https://github.com/vemonser/photos/blob/main/samuel-regan-asante-Geepgu8bCas-unsplash.jpg?raw=true",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "bgTitle": "هايبر ماركت",
+      "bgDescription": "أسواق العامر تضم تشكيلة واسعة من المنتجات والأصناف )أكثر من 60.000 صنف مختلف( من المنتجات ال طازجة ، الأصناف الاستهلاكية الأخرى والأدوات المنزلية إضافة للأصناف المستوردة من شتى بقاع العالم ( آسيا ، إفريقيا ، أوروبا ، أمريكا الشمالية والجنوبية ) والتي توفر مختلف متطلبات العملاء . وحيث أن شعارنا هو 'قمة التوفير'، فإن هدفنا هو استمرارنا بتقديم أفضل نوعية من الخدمات لعملائنا وبأقل الأسعار",
+      "bgImg": "https://github.com/vemonser/photos/blob/main/00000003-min.jpg?raw=true",
+      "name": "هايبر ماركت",
+      "desc": "أسواق العامر تضم تشكيلة واسعة من المنتجات والأصناف )أكثر من 60.000 صنف مختلف( من المنتجات ال طازجة ، الأصناف الاستهلاكية الأخرى والأدوات المنزلية إضافة للأصناف المستوردة من شتى بقاع العالم ( آسيا ، إفريقيا ، أوروبا ، أمريكا الشمالية والجنوبية ) والتي توفر مختلف متطلبات العملاء . وحيث أن شعارنا هو 'قمة التوفير'، فإن هدفنا هو استمرارنا بتقديم أفضل نوعية من الخدمات لعملائنا وبأقل الأسعار",
+      "img": " https://github.com/vemonser/photos/blob/main/00000003-min.jpg?raw=true",
+      "shops": [
+        {
+          "id": 1,
+
+          "name": "Store 5 ",
+
+          "phone": ["01143157486 -", "  203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "L1"
+        },
+
+        {
+          "id": 2,
+
+          "name": "Store 4",
+
+          "phone": ["01143157486 -", " 203 0112528605"],
+
+          "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+
+          "floor": "G8"
+        }
+      ]
+    }
+  ]
+}

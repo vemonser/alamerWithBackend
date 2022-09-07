@@ -1,0 +1,76 @@
+{
+  "status": 200,
+  "message": "ShoppingDepartments",
+  "data": [
+    {
+      "id": 1,
+      "name": "Women - Men's Fashion",
+      "desc": "Al-Amer Mall contains stores that sell the finest brands and the latest collections of various modern and classic designs suitable for both genders and meet the needs of everyone.",
+      "img": "https://github.com/vemonser/photos/blob/main/arturo-rey-5yP83RhaFGA-unsplash.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 2,
+      "name": "Kids - Pregnant Ladies Fashion",
+      "desc": "From maternity clothes to trendy boys' clothes, you will find everything you are looking for in mothers' and Kids' stores. Al-Amer Mall provides you with everything you need for your newborn, suitable for both genders.",
+      "img": "https://github.com/vemonser/photos/blob/main/the-nix-company-su6w8v_JXwo-unsplash.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 3,
+      "name": "Electronics - Telephones - Household Appliances - home decorations ",
+      "desc": "Al-Amer Mall provides you with many stores specializing in electronic devices, mobile phones and household item to meet everyone's needs.",
+      "img": "https://github.com/vemonser/photos/blob/main/pexels-%D1%8E%D1%80%D0%B8%D0%B9-%D0%BB%D0%B0%D0%B9%D0%BC%D0%B8%D0%BD-9555099.webp?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 4,
+      "name": "Optics - Sunglasses",
+      "desc": "Al-Amer Mall contains a wide range of eyeglasses and lenses stores.",
+      "img": "https://github.com/vemonser/photos/blob/main/wu-yi-oqlEKLMmTNg-unsplash.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 5,
+      "name": "Accessories - bags - shoes",
+      "desc": "Al-Amer Mall offers a wide variety of bags and shoes stores from the latest launches of the season.",
+      "img": "https://github.com/vemonser/photos/blob/main/pexels-alexandra-maria-336372%20(1).jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 6,
+      "name": "Watches - Jewelry",
+      "desc": "Al-Amer Mall offers an impressive collection of watches and jewelry stores to suit all tastes and budgets.",
+      "img": "https://github.com/vemonser/photos/blob/main/bulbul-ahmed-tJnMnFMHFm0-unsplash.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 7,
+      "name": "Sports and Entertainment",
+      "desc": "Al-Amer Mall contains a wide variety of major sports stores.",
+      "img": "https://github.com/vemonser/photos/blob/main/pexels-nothing-ahead-7451930.webp?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 8,
+      "name": "Pharmacies - Cosmetics - Perfumes - Beauties ",
+      "desc": "Al-Amer Mall provides you with a lot of options from skin care products to cosmetics, and perfumes. You will find in the mall what satisfies your taste and gives you the perfect look.",
+      "img": "https://github.com/vemonser/photos/blob/main/pexels-yulia-h-11028230.webp?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 9,
+      "name": "Games - gifts - stationery - books",
+      "desc": "Al-Amer Mall contains a wide range of stores specialized in Kids' toys and other gifts to suit all your occasions.",
+      "img": "https://github.com/vemonser/photos/blob/main/pexels-said-10918358.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 10,
+      "name": "Services - specialty stores",
+      "desc": "Al-Amer Mall provides the best interface in Al-hasa for shopping and entertainment, but it also contains a wide variety of specialized stores that provide various services such as branches of telecommunications companies, where you can buy a new phone line or pay bills while touring the mall.",
+      "img": "https://github.com/vemonser/photos/blob/main/entertainment.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    }
+  ]
+}

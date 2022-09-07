@@ -1,0 +1,20 @@
+{
+  "status": 200,
+  "message": "departments",
+  "data": [
+    {
+      "id": 17,
+      "name": "Entertainment and games",
+      "desc": "",
+      "img": "https://github.com/vemonser/photos/blob/main/pexels-nothing-ahead-7451930.webp?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 18,
+      "name": "Cinema",
+      "desc": "",
+      "img": "https://github.com/vemonser/photos/blob/main/samuel-regan-asante-Geepgu8bCas-unsplash.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "status": 200,
+    "message": "partners",
+    "data": [
+        {
+            "id": 1,
+            "link": "https://mcarthurcompany.com/",
+            "img": "http://www.mall-alamer.com/img/shop/brands/05_color.png",
+            "status": 1,
+            "phone": [
+                {
+                    "id": 1,
+                    "phone": "0159816011"
+                }
+            ],
+            "created_at": "24 يوليو 2022"
+        },
+        {
+            "id": 2,
+            "link": "https://tofm.com.sa/ar/",
+            "img": "https://tofm.com.sa/wp-content/uploads/2020/01/logo-tofm.png",
+            "status": 1,
+            "phone": [
+                {
+                    "id": 1,
+                    "phone": "0111521897"
+                }
+            ],
+            "created_at": "24 يوليو 2022"
+        }
+    ]
+}

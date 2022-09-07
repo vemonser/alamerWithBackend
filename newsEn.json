@@ -1,0 +1,34 @@
+{
+    "status": 200,
+    "message": "News",
+    "data": [
+        {
+            "id": 1,
+            "title": "Opening of a new chain of stores",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus, risus eleifend feugiat tempus, orci augue convallis arcu, a porta ligula elit vitae nisi. Mauris sit amet mattis nisi. Duis iaculis sapien nec pulvinar viverra. Proin sagittis nisi vitae nisi dapibus porttitor. Nulla felis nisl.",
+            "img": "https://github.com/vemonser/photos/blob/main/korie-cull-IzIME1jwjCY-unsplash%20(1).jpg?raw=true",
+            "date": "2020-07-20"
+        },
+        {
+            "id": 2,
+            "title": "Opening of a new chain of stores",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus, risus eleifend feugiat tempus, orci augue convallis arcu, a porta ligula elit vitae nisi. Mauris sit amet mattis nisi. Duis iaculis sapien nec pulvinar viverra. Proin sagittis nisi vitae nisi dapibus porttitor. Nulla felis nisl.",
+            "img": "https://github.com/vemonser/photos/blob/main/korie-cull-IzIME1jwjCY-unsplash%20(1).jpg?raw=true",
+            "date": "2020-07-20"
+        },
+        {
+            "id": 3,
+            "title": "Opening of a new chain of stores",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus, risus eleifend feugiat tempus, orci augue convallis arcu, a porta ligula elit vitae nisi. Mauris sit amet mattis nisi. Duis iaculis sapien nec pulvinar viverra. Proin sagittis nisi vitae nisi dapibus porttitor. Nulla felis nisl.",
+            "img": "https://github.com/vemonser/photos/blob/main/korie-cull-IzIME1jwjCY-unsplash%20(1).jpg?raw=true",
+            "date": "2020-07-20"
+        },
+        {
+            "id": 4,
+            "title": "Opening of a new chain of stores",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus, risus eleifend feugiat tempus, orci augue convallis arcu, a porta ligula elit vitae nisi. Mauris sit amet mattis nisi. Duis iaculis sapien nec pulvinar viverra. Proin sagittis nisi vitae nisi dapibus porttitor. Nulla felis nisl.",
+            "img": "https://github.com/vemonser/photos/blob/main/korie-cull-IzIME1jwjCY-unsplash%20(1).jpg?raw=true",
+            "date": "2020-07-20"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "status": 200,
+    "message": "departments",
+    "data": [
+        {
+            "id": 1,
+            "name": "Sports and Entertainment",
+            "desc": "Al-Amer Mall contains a wide variety of major sports stores.",
+            "img": "https://github.com/vemonser/photos/blob/main/gym.jpg?raw=true",
+            "created_at": "24 يوليو 2022"
+        },
+        {
+            "id": 2,
+            "name": "Restaurants",
+            "desc": "Al-Amer Mall offers a great selection of restaurants that offer what suits all tastes, from contemporary Arabic dishes and many more to live a delicious tasting experience.",
+            "img": "https://github.com/vemonser/photos/blob/main/emanuel-ekstrom-qxvhDhjFy4o-unsplash.jpg?raw=true",
+            "created_at": "24 يوليو 2022"
+        },
+        {
+            "id": 3,
+            "name": "Pharmacies - Cosmetics - Perfumes - Beauties ",
+            "desc": "Al-Amer Mall provides you with a lot of options from skin care products to cosmetics, and perfumes. You will find in the mall what satisfies your taste and gives you the perfect look.",
+            "img": "https://github.com/vemonser/photos/blob/main/pharma.jpg?raw=true",
+            "created_at": "24 يوليو 2022"
+        },
+        {
+            "id": 4,
+            "name": "Women - Men's Fashion",
+            "desc": "Al-Amer Mall contains stores that sell the finest brands and the latest collections of various modern and classic designs suitable for both genders and meet the needs of everyone.",
+            "img": "https://github.com/vemonser/photos/blob/main/shopingHero.jpg?raw=true",
+            "created_at": "24 يوليو 2022"
+        },
+        {
+            "id": 5,
+            "name": "Games - gifts - stationery - books",
+            "desc": "Al-Amer Mall contains a wide range of stores specialized in Kids' toys and other gifts to suit all your occasions.",
+            "img": "https://github.com/vemonser/photos/blob/main/gifts.jpg?raw=true",
+            "created_at": "24 يوليو 2022"
+        },
+        {
+            "id": 6,
+            "name": "Entertainment",
+            "desc": "Cinema",
+            "img": "https://github.com/vemonser/photos/blob/main/entertainment.jpg?raw=true",
+            "created_at": "24 يوليو 2022"
+        }
+    ]
+}

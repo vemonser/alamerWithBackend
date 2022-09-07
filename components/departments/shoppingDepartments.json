@@ -1,0 +1,76 @@
+{
+  "status": 200,
+  "message": "ShoppingDepartments",
+  "data": [
+    {
+      "id": 1,
+      "name": "أزياء - نسائية  - رجالية",
+      "desc": "يحتوي العامر مول على المتاجر التي تبيع أرقى العلامات التجارية وأحدث تشكيلات الملابس المختلفة من التصاميم العصرية والكلاسيكية المناسبة للجنسين، والتي تلّبي احتياجات الجميع",
+      "img": "https://github.com/vemonser/photos/blob/main/arturo-rey-5yP83RhaFGA-unsplash.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 2,
+      "name": "أزياء أطفال - حوامل",
+      "desc": "ستجدين كلّ ما تبحثين عنه في متاجر لأطفالك بداية من ملابس الحمل إلى ملابس الأطفال العصريّة يوفّر لكِ العامر مول كلّ ما تحتاجين إليه لمولودك الجديد المناسبة للجنسين.",
+      "img": "https://github.com/vemonser/photos/blob/main/the-nix-company-su6w8v_JXwo-unsplash.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 3,
+      "name": "إلكترونيات - هواتف - ديكورات المنزل ",
+      "desc": "يوفّر لك العامر مول الكثير من المتاجر المتخصّصة بالأجهزة الإلكترونية والهواتف المحمولة والديكورات المنزلية لتلّبي احتياجات الجميع .",
+      "img": 	"https://github.com/vemonser/photos/blob/main/pexels-%D1%8E%D1%80%D0%B8%D0%B9-%D0%BB%D0%B0%D0%B9%D0%BC%D0%B8%D0%BD-9555099%20copy.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 4,
+      "name": "بصريات - نظارات شمسية",
+      "desc": "يحتوي العامر مول على مجموعة واسعة من متاجر النظّارات، والعدسات .",
+      "img": 	"https://github.com/vemonser/photos/blob/main/wu-yi-oqlEKLMmTNg-unsplash.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 5,
+      "name": "إكسسوارات - حقائب - احذية",
+      "desc": "يوفّر العامر مول تشكيلة واسعة من متاجر الحقائب والأحذية من أحدث إصدارات الموسم.",
+      "img": 	"https://github.com/vemonser/photos/blob/main/pexels-alexandra-maria-336372%20(1).jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 6,
+      "name": "ساعات - مجوهرات",
+      "desc": "يوفّر العامر مول تشكيلة رائعة من متاجر الساعات والمجوهرات التي تناسب جميع الأذواق والميزانيات.",
+      "img": 	"https://github.com/vemonser/photos/blob/main/bulbul-ahmed-tJnMnFMHFm0-unsplash.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 7,
+      "name": "رياضة وترفيه",
+      "desc": "من الصعب تجاهل الفوائد الصحية لممارسة الرياضة والأنشطة البدنية المنتظمة، إذ يستفيد منها الجميع بغض النظر عن السن أو الجنس أو القدرة البدنية يحتوي العامر مول على تشكيلة واسعة من المتاجر الرياضية الكبرى",
+      "img": 	"https://github.com/vemonser/photos/blob/main/WhatsApp%20Image%202022-07-14%20at%201.05.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 8,
+      "name": "صيدليات - مستحضرات تجميل  - عطور  -  جمال",
+      "desc": "يوفّر لك العامر مول الكثير من الخياراتٍ من منتجات العناية بالبشرة الى مستحضرات التجميل، والعطور، سوف تجدين في المول ما يرضي ذوقكِ ويمنحكِ الإطلالة المثالية .",
+      "img": 	"https://github.com/vemonser/photos/blob/main/pexels-yulia-h-11028230.webp?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 9,
+      "name": "العاب - هدايا - قرطاسية - كتب",
+      "desc": "يحتوي العامر مول على مجموعة واسعه من المتاجر المتخصصة في العاب الأطفال وغيرها من الهدايا لتناسب جميع مناسبتك",
+      "img": 	"https://github.com/vemonser/photos/blob/main/pexels-said-10918358.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 10,
+      "name": "خدمات - متاجر متخصصة",
+      "desc": "يوفّر العامر مول الواجهة الأفضل في الاحساء للتسوّق، والترفيه، ولكنّه يحتوي أيضًا على تشكيلة واسعة من المتاجر المتخصّ صة التي تقدّم مختلف الخدمات كفروع شركات الاتصالات حيث يمكنكم شراء خطّ هاتفي جديد أو دفع الفواتير أثناء تجوّلكم في المول.",
+      "img": "https://github.com/vemonser/photos/blob/main/nathan-dumlao-lvWw_G8tKsk-unsplash.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    }
+  ]
+}

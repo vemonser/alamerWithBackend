@@ -1,0 +1,48 @@
+{
+  "status": 200,
+  "message": "departments",
+  "data": [
+    {
+      "id": 11,
+      "name": "المطاعم",
+      "desc": "",
+      "img": "https://github.com/vemonser/photos/blob/main/%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85-min.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 12,
+      "name": "المقاهي",
+      "desc": "",
+      "img": "https://github.com/vemonser/photos/blob/main/%D9%85%D9%82%D8%A7%D9%87%D9%8A-min.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 13,
+      "name": "الوجبات السريعة",
+      "desc": "",
+      "img": "https://github.com/vemonser/photos/blob/main/%D8%A7%D9%84%D9%88%D8%AC%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-min.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 14,
+      "name": "طعام صحي",
+      "desc": "",
+      "img": "https://github.com/vemonser/photos/blob/main/%D8%B7%D8%B9%D8%A7%D9%85%20%D8%B5%D8%AD%D9%8A-min.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 15,
+      "name": "مطاعم متخصصة - حلويات",
+      "desc": "",
+      "img": "https://github.com/vemonser/photos/blob/main/%D8%AD%D9%84%D9%88%D9%8A%D8%A7%D8%AA-min.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    },
+    {
+      "id": 16,
+      "name": "الجلسات الخارجية",
+      "desc": "",
+      "img": "https://github.com/vemonser/photos/blob/main/024.jpg?raw=true",
+      "created_at": "24 يوليو 2022"
+    }
+  ]
+}
