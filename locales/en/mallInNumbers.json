@@ -1,0 +1,438 @@
+{
+    "status": 200,
+    "message": "categorys",
+    "data": [
+        {
+            "id": 0,
+            "name": "department",
+            "img": "https://images.unsplash.com/photo-1551085254-e96b210db58a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "zara",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Pull & Bear",
+                    "phone": [
+                        "01143157486",
+                        "+ 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L3"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id":8,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id":9,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id":10,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id":11,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id":12,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "departmentName": "ازياء نسائية - رجالية",
+            "departmentsDescription": " في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. مولد ",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 5 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "L1"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 4",
+                    "phone": [
+                        "01143157486 -",
+                        " 203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G8"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "ar2",
+            "img": "https://images.unsplash.com/photo-1555169062-013468b47731?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+            "created_at": "17 يوليو 2022",
+            "department_id": 1,
+            "department_name": "ar1",
+            "shops": [
+                {
+                    "id": 1,
+                    "name": "Store 3 ",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G5"
+                },
+                {
+                    "id": 2,
+                    "name": "Store 2",
+                    "phone": [
+                        "01143157486 -",
+                        "  203 0112528605"
+                    ],
+                    "locationLink": "https://www.google.com/maps/@24.6142194,46.6914836,10z",
+                    "floor": "G2"
+                }
+            ]
+        }
+    ]
+}

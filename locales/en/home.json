@@ -1,0 +1,365 @@
+{
+  "navbarImg": "https://raw.githubusercontent.com/vemonser/photos/718d038d3c9b763e4a4f1b561442d7da4d38900f/logoColoredCenter.svg",
+  "navbarImgOnHoverLtr": "https://raw.githubusercontent.com/vemonser/photos/d590d8a57c012d7b20e13ab3ac2598f07f2191a3/logoTextOnly.svg",
+  "navbarImgOnHoverRtl": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/logoTextOnly.svg",
+
+  "NavIcon": [
+    {
+      "id": "3",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/instagramCircle.svg",
+      "route": "https://www.instagram.com",
+      "hover": "#fa6800"
+    },
+    {
+      "id": "2",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/twitterCircle.svg",
+      "route": "https://www.twitter.com",
+      "hover": "#fa6800"
+    },
+    {
+      "id": "1",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/facebookCircle.svg",
+      "route": "https://www.facebook.com",
+      "hover": "#fa6800"
+    }
+  ],
+  "navbarLinks": [
+    {
+      "name": "Home",
+      "route": "/"
+    },
+    {
+      "name": "Departments",
+      "route": "/departments"
+    },
+    {
+      "name": "Internal Maps",
+      "route": "/internalMaps"
+    },
+    {
+      "name": "About Us",
+      "route": "/about"
+    },
+    {
+      "name": "Photo Gallery",
+      "route": "/gallery"
+    },
+    {
+      "name": "Contact Us",
+      "route": "/contact"
+    },
+    {
+      "name": "Events",
+      "route": "/events"
+    }
+  ],
+
+  "navbarLinksFooterColOne": [
+    {
+      "name": "Home",
+      "route": "/"
+    },
+    {
+      "name": "Contact Us",
+      "route": "/contact"
+    },
+    {
+      "name": "About Us",
+      "route": "/about"
+    },
+    {
+      "name": "Internal Maps",
+      "route": "/internalMaps"
+    },
+    {
+      "name": "Events",
+      "route": "/events"
+    }
+  ],
+  "navbarLinksFooterColTwo": [
+    {
+      "name": "Services - specialty stores",
+      "route": "/departments/11"
+    },
+    {
+      "name": "Women - Men's Fashion",
+      "route": "/departments/1"
+    },
+    {
+      "name": "Kids - Pregnant Ladies Fashion",
+      "route": "/departments/2"
+    },
+    {
+      "name": "Electronics - Telephones",
+      "route": "/departments/3"
+    },
+    {
+      "name": "Optics - Sunglasses",
+      "route": "/departments/4 "
+    },
+    {
+      "name": "Accessories - bags - shoes",
+      "route": "/departments/5"
+    },
+    {
+      "name": "Sports and Entertainment",
+      "route": "/departments/7 "
+    }
+  ],
+  "navbarLinksFooterColThree": [
+    {
+      "name": "Restaurants",
+      "route": "/departments/11"
+    },
+    {
+      "name": "Cafes ",
+      "route": "/departments/12"
+    },
+    {
+      "name": "Fast Food Stores",
+      "route": "/departments/13"
+    },
+    {
+      "name": "Healthy Food Stores",
+      "route": "/departments/14"
+    },
+    {
+      "name": "pecialty Restaurants ",
+      "route": "/departments/15"
+    },
+    {
+      "name": "Outdoor Sessions",
+      "route": "/departments/16"
+    }
+  ],
+
+  "MallInNumbers": [
+    {
+      "id": 0,
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/parking.svg",
+      "iconNumber": "520",
+      "iconDescription": "Parking"
+    },
+    {
+      "id": 1,
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/24-hours.svg",
+      "iconNumber": "20",
+      "iconDescription": "Working hours"
+    },
+    {
+      "id": 2,
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/cube.svg",
+      "iconNumber": "+M² 66.000",
+      "iconDescription": " Flat Construction"
+    },
+    {
+      "id": 3,
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/building.svg",
+      "iconNumber": "50",
+      "iconDescription": "Experience"
+    }
+  ],
+
+  "aboutMalltitle": "Al Amer",
+  "aboutAlAmer": [
+    {
+      "aboutMallDescription": " Al Amer Mall is designed to become the mall that includes all fashion names and activities in Al Hasa, this is in the case of seasonal shopping related to occasions and holidays. Furthermore, Al Amer Mall was established to become the permanent destination for Al Hasa residents and visitors and the daily stop place on their way to home, to announce a new concept for shopping and entertainment centers.."
+    },
+    {
+      "aboutMallDescription": "All of that to make a special experience that take our visitors to fun new experiences in the world of shopping and entertainment.."
+    }
+  ],
+  "patternBg": "https://github.com/vemonser/photos/blob/main/grey%20bg-01.png?raw=true",
+  "alAmerCircle": "https://github.com/vemonser/photos/blob/main/al%20amer%20circle.png?raw=true",
+  "btnReadMore": "Read More",
+  "btnMore": "More",
+  "departments": "Departments",
+  "departmentsDescription": "A unique shopping experience in one place.",
+  "ourPartners": "Our Partners",
+  "ourNew": "Our New",
+  "ourNewDescription": "Discover the new Al-Amer Mall",
+  "newslatter": "Subscribe to our newsletter ",
+  "newslatterButton": "Subscribe",
+  "placeHolderNewslatter": "E-mail",
+  "contactTitle": "Contact Us",
+  "contactDescription": "For inquiries and suggestions, leave us a message",
+  "leaveMessage": "Leave Us a Message",
+  "cards": [
+    {
+      "id": "0",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/5bb38f09237c667756164926d2c982c7fbb8e502/Vector%20Smart%20Object2-01.svg",
+      "title": "Hyper Market",
+      "desc": "From 6 AM to 2 AM"
+    },
+    {
+      "id": "1",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/5bb38f09237c667756164926d2c982c7fbb8e502/Vector%20Smart%20Object2-01.svg",
+      "title": "Working Hours",
+      "desc": "Saturday to Wednesday: 10 AM - 10 PM, Thursday and Friday: 10 AM - 12 AM (midnight)"
+    },
+    {
+      "id": "2",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/5bb38f09237c667756164926d2c982c7fbb8e502/Vector%20Smart%20Object2-03.svg",
+      "title": "Address",
+      "desc": "King Abdullah St, Al-Fadiliya, Hofuf 36364"
+    },
+    {
+      "id": "3",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/5bb38f09237c667756164926d2c982c7fbb8e502/Vector%20Smart%20Object2-02.svg",
+      "title": "Our Numbers",
+      "phones": [
+        {
+          "id": "0",
+          "num": "02181482154"
+        },
+        {
+          "id": "1",
+          "num": "02181482154"
+        }
+      ]
+    }
+  ],
+  "name": "Name",
+  "email": "E-mail",
+  "subject": "Subject",
+  "message": "Message",
+  "sendMessage": "Send Message",
+  "mapTitle": "Internal Maps",
+  "f0": "The Basement",
+  "f1": "Surface One",
+  "f2": "Surface Two",
+  "f3": "Surface Two in mezzanine",
+  "f4": "Surface Three",
+  "f5": "Outer Surface",
+  "mapkeyTitle": "Map Key",
+  "colorskeyTitle": "Colors Key",
+  "leasingForm": "Leasing Form",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "companyName": "Company Name",
+  "job": "Job",
+  "Email": "E-mail",
+  "phone": "Phone",
+  "cellPhone": "Cell Phone",
+  "brandType": "Brand Type",
+  "brandOwnership": "Brand Ownership",
+  "activityType": "Activity Type",
+  "notes": "Notes",
+  "send": "Send",
+  "galleryTitle": "Photo Gallery",
+  "galleryDesc": " ",
+
+  "colorsKey": [
+    {
+      "id": "0",
+      "floor": "S22",
+      "storeName": "Store name"
+    },
+    {
+      "id": "1",
+      "floor": "S21",
+      "storeName": "Store name"
+    },
+    {
+      "id": "2",
+      "floor": "S20",
+      "storeName": "Store name"
+    },
+    {
+      "id": "3",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "4",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "5",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "6",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "7",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "8",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "9",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "10",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "11",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "12",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "13",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "14",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "15",
+      "floor": "S19",
+      "storeName": "Store name"
+    }
+  ],
+  "mapKeyDesc": [
+    {
+      "id": "0",
+      "color": "green",
+      "colorDesc": "lorem Ipsum"
+    },
+    {
+      "id": "1",
+      "color": "purple",
+      "colorDesc": "lorem Ipsum"
+    },
+    {
+      "id": "2",
+      "color": "yellow",
+      "colorDesc": "lorem Ipsum"
+    },
+    {
+      "id": "3",
+      "color": "pink",
+      "colorDesc": "lorem Ipsum"
+    }
+  ],
+
+  "departmensTitle": "Departments",
+  "hyperMarketTitle": "Hypermarket",
+  "hyperMarketDesc": "Al-Amer hypermarket combines a wide variety of products and items (more than 60,000 different items) of fresh products, other consumer items and household appliances, in addition to items imported from all over the world (Asia, Africa, Europe, North and South America) that meet the various requirements of the customers. Whereas our Slogan is \"Top savings\", our goal is to continue providing the best quality of services to our customers at the lowest prices.",
+  "shopping": "Shopping",
+  "resturantsTitle": "Restaurants",
+  "resturantsDesc": "Al-Amer Mall offers a great selection of restaurants that offer what suits all tastes, from contemporary Arabic dishes and many more to live a delicious tasting experience.",
+  "entertainmentTitle": "Entertainment ",
+  "entertainmentDesc": "Entertainment and games"
+}

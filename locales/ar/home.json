@@ -1,0 +1,415 @@
+{
+  "navbarImg": "https://raw.githubusercontent.com/vemonser/photos/718d038d3c9b763e4a4f1b561442d7da4d38900f/logoColoredCenter.svg",
+  "navbarImgOnHoverLtr": "https://raw.githubusercontent.com/vemonser/photos/d590d8a57c012d7b20e13ab3ac2598f07f2191a3/logoTextOnly.svg",
+  "navbarImgOnHoverRtl": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/logoTextOnly.svg",
+
+  "navbarLinks": [
+    {
+      "name": "الرئيسية",
+      "route": "/"
+    },
+    {
+      "name": "الأقسام",
+      "route": "/departments"
+    },
+    {
+      "name": "الخرائط الداخلية",
+      "route": "/internalMaps"
+    },
+    {
+      "name": "من نحن",
+      "route": "/about"
+    },
+    {
+      "name": "معرض الصور",
+      "route": "/gallery"
+    },
+
+    {
+      "name": "تواصل معنا",
+      "route": "/contact"
+    },
+    {
+      "name": "الفعاليات",
+      "route": "/events"
+    }
+  ],
+  "back": "الرجوع",
+  "departmentsNavbar": "الأقسام",
+  "departmentsShoppingLink": "التسوق",
+  "departmentsShoppingLinks": [
+    {
+      "name": "أزياء نسائية",
+      "route": "/departments/2"
+    },
+    {
+      "name": "ازياء - اطفال",
+      "route": "/departments/3"
+    },
+    {
+      "name": "رياضة وترفيه",
+      "route": "/departments/4"
+    },
+    {
+      "name": "إلكترونيات هواتف",
+      "route": "/departments/5"
+    }
+  ],
+  "departmentsRestaurantsLink": "المطاعم",
+  "departmentsRestaurantsLinks": [
+    {
+      "name": "المقاهي",
+      "route": "/departments/2"
+    },
+    {
+      "name": "الوجبات السريعة",
+      "route": "/departments/3"
+    },
+    {
+      "name": "مطاعم متخصصة",
+      "route": "/departments/4"
+    },
+    {
+      "name": "طعام  صحي",
+      "route": "/departments/5"
+    }
+  ],
+  "departmentsEntertainmentLink": "الترفيه",
+  "departmentsEntertainmentLinks": [
+    {
+      "name": "سينما",
+      "route": "/departments/8"
+    }
+  ],
+
+  "navbarLinksFooterColOne": [
+    {
+      "name": "الرئيسية",
+      "route": "/"
+    },
+    {
+      "name": "تواصل معنا",
+      "route": "/contact"
+    },
+    {
+      "name": "من نحن",
+      "route": "/about"
+    },
+    {
+      "name": "الخرائط الداخلية",
+      "route": "/internalMaps"
+    },
+    {
+      "name": " الفعاليات",
+      "route": "/events"
+    }
+  ],
+  "navbarLinksFooterColTwo": [
+    {
+      "name": "خدمات - متاجر متخصصة",
+      "route": "/departments/10"
+    },
+    {
+      "name": "ازياء - نسائية",
+      "route": "/departments/1"
+    },
+    {
+      "name": "ازياء - اطفال",
+      "route": "/departments/2"
+    },
+    {
+      "name": "إلكترونيات هواتف",
+      "route": "/departments/3"
+    },
+    {
+      "name": "بصريات",
+      "route": "/departments/4 "
+    },
+    {
+      "name": "إكسسوارات حقائب",
+      "route": "/departments/5"
+    },
+    {
+      "name": "رياضة وترفيه",
+      "route": "/departments/4 "
+    }
+  ],
+  "navbarLinksFooterColThree": [
+    {
+      "name": "المطاعم",
+      "route": "/departments/11"
+    },
+    {
+      "name": "المقاهي ",
+      "route": "/departments/12"
+    },
+    {
+      "name": "الوجبات السريعة",
+      "route": "/departments/13"
+    },
+    {
+      "name": "طعام  صحي",
+      "route": "/departments/14"
+    },
+    {
+      "name": "مطاعم متخصصة",
+      "route": "/departments/15"
+    },
+    {
+      "name": "الجلسات الخارجية",
+      "route": "/departments/16"
+    }
+  ],
+  "NavIcon": [
+    {
+      "id": "2",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/instagramCircle.svg",
+      "route": "https://www.snapchat.com/add/alamermall?share_id=NkU4MkJE&locale=ar_SA@calendar=gregorian",
+      "hover": "#fa6800",
+      "initial": " #3c21336b"
+    },
+    {
+      "id": "1",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/twitterCircle.svg",
+      "route": "https://twitter.com/alamermall?s=21",
+      "hover": "#fa6800",
+      "initial": " #3c21336b"
+    },
+    {
+      "id": "0",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/2583a9b52e42fd78bae19e130ef8fef41bacc938/facebookCircle.svg",
+      "route": "https://www.facebook.com/alamermall2",
+      "hover": "#fa6800",
+      "initial": " #3c21336b"
+    }
+  ],
+  "MallInNumbers": [
+    {
+      "id": 0,
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/parking.svg",
+      "iconNumber": "520",
+      "iconDescription": "موقف سيارة"
+    },
+    {
+      "id": 1,
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/24-hours.svg",
+      "iconNumber": "20",
+      "iconDescription": "ساعات العمل"
+    },
+    {
+      "id": 2,
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/cube.svg",
+      "iconNumber": "M² 66.000+",
+      "iconDescription": "مسطح البناء"
+    },
+    {
+      "id": 3,
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/470b3495a63713d2c28c527918d0f9ad1144c3aa/building.svg",
+      "iconNumber": "50",
+      "iconDescription": "الخبرة"
+    }
+  ],
+  "aboutMalltitle": "العامر مول",
+  "aboutAlAmer": [
+    {
+      "aboutMallDescription": " صمم العامر مول ليغدو الاسم الذي تجتمع فيه أسماء الأزياء وأنشطة التجزئة في الأحساء، هذا حين نتحدث عن تسوق موسمي مرتبط أما على صعيد الحياة فإن العامر مول وجد ليصبح وجهة التنزه الدائمة لأهل الأحساء وزوارها ومحطة التوقف اليومية في طريقهم إلى منازلهم ليعلن عن مفهوم جديد لمراكز التسوق والترفيه."
+    },
+    {
+      "aboutMallDescription": "لننشئ تجربة فريدة تأخذ زوارنا لخوض تجارب جديدة ممتعة في عالم التسوق والترفيه..."
+    }
+  ],
+  "patternBg": "https://github.com/vemonser/photos/blob/main/grey%20bg-01.png?raw=true",
+  "alAmerCircle": "https://github.com/vemonser/photos/blob/main/al%20amer%20circle.png?raw=true",
+  "btnReadMore": "اقرأ المزيد",
+  "btnMore": "المزيد",
+
+  "departments": "الأقســـــام",
+  "departmentsDescription": "استكشاف اقسام مول العامر المختلفة",
+  "ourPartners": "شركاؤنا",
+  "ourNew": "جديدنا",
+  "ourNewDescription": "اكتشف جديد العامر مول",
+  "newslatter": "اشترك بنشرتنا لمعرفة جديدنا دائما",
+  "newslatterButton": "اشترك",
+  "placeHolderNewslatter": "البريدالإلكتروني",
+  "contactTitle": "تواصل معنا",
+  "contactDescription": "للاستفسارات والاقتراحات اترك لنا رسالة",
+  "leaveMessage": "اترك لنا رسالة",
+  "cards": [
+    {
+      "id": "0",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/5bb38f09237c667756164926d2c982c7fbb8e502/Vector%20Smart%20Object2-01.svg",
+      "title": "الهايبر ماركت",
+      "desc": "من الساعة 6 صباحًا إلي الساعة 2 بعد منتصف الليل"
+    },
+    {
+      "id": "1",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/5bb38f09237c667756164926d2c982c7fbb8e502/Vector%20Smart%20Object2-01.svg",
+      "title": "ساعات العمل",
+      "desc": "من السبت إلي الأربعاء : 10 صباحًا - 10 مساًء , الخميس والجمعة :10 صباحًا  - 12 صباحًا (منتصف الليل )"
+    },
+    {
+      "id": "2",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/5bb38f09237c667756164926d2c982c7fbb8e502/Vector%20Smart%20Object2-03.svg",
+      "title": "عنواننـا",
+      "desc": "طريق الملك عبدالله , الفاضلية الهفوف 36364"
+    },
+    {
+      "id": "3",
+      "icon": "https://raw.githubusercontent.com/vemonser/photos/5bb38f09237c667756164926d2c982c7fbb8e502/Vector%20Smart%20Object2-02.svg",
+      "title": "ارقامنـا",
+      "phones": [
+        {
+          "id": "0",
+          "num": "02181482154"
+        },
+        {
+          "id": "1",
+          "num": "02181482154"
+        }
+      ]
+    }
+  ],
+  "name": "الاسم",
+  "email": "البريدالإلكتروني",
+  "subject": "عنوان الرسالة",
+  "message": "الرسالة",
+  "sendMessage": "ارسل رسالتك",
+  "mapTitle": "الخرائط الداخلية",
+  "f0": "القبو",
+  "f1": "الدور الاول",
+  "f2": "الدور الثاني",
+  "f3": "الدور الثاني ميزان",
+  "f4": "الدور الثالث",
+  "f5": "السطح الخارجي",
+  "mapkeyTitle": "Map Key",
+  "colorskeyTitle": "Colors Key",
+  "leasingForm": "إستمارة التأجير",
+  "firstName": "الاسم الأول",
+  "lastName": "اسم العائلة",
+  "companyName": "اسم الشركة",
+  "job": "الوظيفة",
+  "Email": "البريدالإلكتروني",
+  "phone": "الهاتف",
+  "cellPhone": "الجوال",
+  "brandType": "نوع العلامة التجارية",
+  "brandOwnership": "ملكية العلامة التجارية",
+  "activityType": "نوع النشاط",
+  "notes": "ملاحظات",
+  "send": "إرسل",
+  "galleryTitle": "معرض الصور",
+  "galleryDesc": " ",
+
+  "colorsKey": [
+    {
+      "id": "0",
+      "floor": "S22",
+      "storeName": "Store name"
+    },
+    {
+      "id": "1",
+      "floor": "S21",
+      "storeName": "Store name"
+    },
+    {
+      "id": "2",
+      "floor": "S20",
+      "storeName": "Store name"
+    },
+    {
+      "id": "3",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "4",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "5",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "6",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "7",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "8",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "9",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "10",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "11",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "12",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "13",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "14",
+      "floor": "S19",
+      "storeName": "Store name"
+    },
+    {
+      "id": "15",
+      "floor": "S19",
+      "storeName": "Store name"
+    }
+  ],
+  "mapKeyDesc": [
+    {
+      "id": "0",
+      "color": "green",
+      "colorDesc": "lorem Ipsum"
+    },
+    {
+      "id": "1",
+      "color": "purple",
+      "colorDesc": "lorem Ipsum"
+    },
+    {
+      "id": "2",
+      "color": "yellow",
+      "colorDesc": "lorem Ipsum"
+    },
+    {
+      "id": "3",
+      "color": "pink",
+      "colorDesc": "lorem Ipsum"
+    }
+  ],
+
+  "departmensTitle": "الأقســـــام",
+  "hyperMarketTitle": "هايبر ماركت",
+  "hyperMarketDesc": "أسواق العامر تضم تشكيلة واسعة من المنتجات والأصناف )أكثر من 60.000 صنف مختلف( من المنتجات ال طازجة ، الأصناف الاستهلاكية الأخرى والأدوات المنزلية إضافة للأصناف المستوردة من شتى بقاع العالم ( آسيا ، إفريقيا ، أوروبا ، أمريكا الشمالية والجنوبية ) والتي توفر مختلف متطلبات العملاء . وحيث أن شعارنا هو 'قمة التوفير'، فإن هدفنا هو استمرارنا بتقديم أفضل نوعية من الخدمات لعملائنا وبأقل الأسعار.",
+  "shopping": "التسوق",
+  "resturantsTitle": "المطاعم",
+  "resturantsDesc": "يوفر العامر مول تشكيلة رائعة من المطاعم التي تقدّم ما يناسب جميع الأذواق من الأطباق العربية المعاصرة وغيرها الكثير لتعيش تجربة تذوّق لذيذة",
+  "entertainmentTitle": "الترفيه",
+  "entertainmentDesc": "الترفيه والألعاب"
+}
