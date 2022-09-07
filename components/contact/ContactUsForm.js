@@ -61,16 +61,16 @@ export default function ContactUsForm({ currentDir }) {
             message: "",
           }}
           onSubmit={async (values) => {
-         await axios.get(
-              `http://futureapp-001-site21.dtempurl.com/public_html/index.php/api/Contact_us`,
-              {
-                headers: {
-                  method: "POST",
-                  API_PASSWORD: `aYI5202kldXcLAxanvdwkfwsklLZcgfjkLSMDKh6tk`,
-                  Lang: language,
-                },
-              }
-            );
+        //  await axios.get(
+        //       `http://futureapp-001-site21.dtempurl.com/public_html/index.php/api/Contact_us`,
+        //       {
+        //         headers: {
+        //           method: "POST",
+        //           API_PASSWORD: `aYI5202kldXcLAxanvdwkfwsklLZcgfjkLSMDKh6tk`,
+        //           Lang: language,
+        //         },
+        //       }
+        //     );
 
             await new Promise((r) => setTimeout(r, 500));
             alert(JSON.stringify(values, null, 2));

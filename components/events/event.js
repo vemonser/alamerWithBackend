@@ -1,35 +1,24 @@
 import { Box, Text, Flex, Heading, SimpleGrid } from "@chakra-ui/react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import axios from "axios";
-import LoadingScreen from "../LoadingScreen";
 
 import useTranslation from "next-translate/useTranslation";
- 
+import dataAr from "../../news.json";
+import dataEn from "../../newsEn.json";
 
 export default function Event({ currentDir }) {
   const { t } = useTranslation("events");
- 
-  const [content, setContent] = useState();
+  const [currentLangFile, setCurrentLangFile] = useState(dataAr);
+
+
+  const langFile = () => {
+    setCurrentLangFile(currentDir === "rtl" ? dataAr : dataEn);
+  };
+
   useEffect(() => {
-    const getData = async () => {
-      const language = currentDir === "rtl" ? "ar" : "en";
-      const response = await axios.get(
-        `http://futureapp-001-site21.dtempurl.com/public_html/index.php/api/News`,
-        {
-          headers: {
-            API_PASSWORD: `aYI5202kldXcLAxanvdwkfwsklLZcgfjkLSMDKh6tk`,
-            Lang: language,
-          },
-        }
-      );
-      setContent(response.data);
-    };
-    getData();
-  }, [currentDir]);
-
-
-  
+    langFile();
+  }),
+    [currentDir];
 
   return (
     <Box
@@ -41,83 +30,93 @@ export default function Event({ currentDir }) {
       }}
     >
       <SimpleGrid
-        columns={[1, 1, 2, 2, 3]}
+        columns={[1,1,2, 2, 3]}
         spacing="5%"
         maxW={"75vw"}
         mx="auto"
         column="3"
         dir={currentDir}
       >
-        {content ? (
-          content.data.map((news) => {
-            return (
-              <Flex
-                pos={"relative"}
-                flexDir="column"
-                key={news.id}
-                minH="max-content"
+        {currentLangFile.data.map((news) => {
+          return (
+            <Flex
+              pos={"relative"}
+              flexDir="column"
+              key={news.id}
+              minH="max-content"
+
+            //   as={motion.div}
+            //   initial={{ opacity: 0, y: 50 }}
+            //   whileInView={{
+            //     opacity: 1,
+            //     y: 0,
+            //     transition: {
+            //       duration: 0.75,
+            //       ease: "easeInOut",
+            //       delay: 0.25,
+            //     },
+            //   }}
+            >
+              <Box pt={"20px"} minH="max-content"
               >
-                <Box pt={"20px"} minH="max-content">
-                  <Box
-                    display={"block"}
-                    width={"100%"}
-                    borderRadius="15px"
-                    overflow={"hidden"}
+                <Box
+                  display={"block"}
+                  width={"100%"}
+                  borderRadius="15px"
+                  overflow={"hidden"}
+
+                >
+                  <Image
+                    priority
+                    alt="our new image"
+                    src={news.img}
+                    width={"4031"}
+                    height={"3024"}
+                    layout={"responsive"}
+                    objectFit={"cover"}
+                  />
+                </Box>
+                <Box color={"#422639"} pos="relative">
+                  <Heading
+                    fontSize={"larger"}
+                    py={6}
+                    fontFamily="bukrabold"
+                    _selection={{ color: "orange" }}
                   >
-                    <Image
-                      priority
-                      alt="our new image"
-                      src={news.img}
-                      width={"4031"}
-                      height={"3024"}
-                      layout={"responsive"}
-                      objectFit={"cover"}
-                    />
-                  </Box>
-                  <Box color={"#422639"} pos="relative">
-                    <Heading
-                      fontSize={"larger"}
-                      py={6}
-                      fontFamily="bukrabold"
-                      _selection={{ color: "orange" }}
-                    >
-                      {news.title}
-                    </Heading>
-                    <Text
-                      _selection={{ color: "orange" }}
-                      _hover={{ color: "orange" }}
-                      fontSize={"small"}
-                      textAlign="justify"
-                      fontFamily={"bukraregular"}
-                    >
-                      {news.desc}
-                    </Text>
-                  </Box>
+                    {news.title}
+                  </Heading>
                   <Text
-                    pos={"absolute"}
-                    align={"left"}
-                    top={"-0px"}
-                    borderRadius={"full"}
-                    zIndex={"5"}
-                    bgColor={"#f59329"}
-                    py={3}
-                    px={5}
-                    left={"20px"}
-                    color={"#fff"}
-                    fontSize={"sm"}
-                    w={"120px"}
-                    lineHeight={1}
-                    _selection={{ color: "#422639" }}
+                    _selection={{ color: "orange" }}
+                    _hover={{ color: "orange" }}
+                    fontSize={"small"}
+                    textAlign="justify"
+                    fontFamily={"bukraregular"}
                   >
-                    {news.date}
+                    {news.desc}
                   </Text>
                 </Box>
-              </Flex>
-            );
-          })
-        ) : (
-          <LoadingScreen />
-        )}
+                <Text
+                  pos={"absolute"}
+                  align={"left"}
+                  top={"-0px"}
+                  borderRadius={"full"}
+                  zIndex={"5"}
+                  bgColor={"#f59329"}
+                  py={3}
+                  px={5}
+                  left={"20px"}
+                  color={"#fff"}
+                  fontSize={"sm"}
+                  w={"120px"}
+                  lineHeight={1}
+                  _selection={{ color: "#422639" }}
+                >
+                  {news.date}
+                </Text>
+              </Box>
+            </Flex>
+          );
+        })}
       </SimpleGrid>
     </Box>
   );

@@ -1,5 +1,6 @@
 import useTranslation from "next-translate/useTranslation";
-
+import data from "../../news.json";
+import dataEn from "../../newsEn.json";
 import Image from "next/image";
 import { Flex, Box, Heading, Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
@@ -8,7 +9,6 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import Rightarrow from "../../public/images/common/NewsArrows02";
 import Leftarrow from "../../public/images/common/NewsArrows01";
-import axios from "axios";
 
 export default function OurNew({ currentDir }) {
   const showText = {
@@ -23,27 +23,10 @@ export default function OurNew({ currentDir }) {
     },
   };
 
-  const [content, setContent] = useState();
-  useEffect(() => {
-    const getData = async () => {
-      const language = currentDir === "rtl" ? "ar" : "en";
-      const response = await axios.get(
-        `http://futureapp-001-site21.dtempurl.com/public_html/index.php/api/News`,
-        {
-          headers: {
-            API_PASSWORD: `aYI5202kldXcLAxanvdwkfwsklLZcgfjkLSMDKh6tk`,
-            Lang: language,
-          },
-        }
-      );
-      setContent(response.data);
-    };
-    getData();
-  }, [currentDir]);
-
   const underlineRight = currentDir === "rtl" ? "0%" : "";
   const underlineLeft = currentDir === "ltr" ? "0%" : "";
 
+  const [currentLangFile, setCurrentLangFile] = useState(data);
   const langFile = () => {
     setCurrentLangFile(currentDir === "rtl" ? data : dataEn);
   };
@@ -127,78 +110,70 @@ export default function OurNew({ currentDir }) {
           mx="auto"
           dir={currentDir}
         >
-          {content ? (
-            content.data.map((news) => {
-              return (
+          {currentLangFile.data.map((news) => {
+            return (
+              <Box
+                pos={"relative"}
+                key={news.id}
+                as={motion.div}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={showText}
+              >
                 <Box
-                  pos={"relative"}
-                  key={news.id}
-                  as={motion.div}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  variants={showText}
+                  className={`keen-slider__slide number-slide${news.id}`}
+                  pt={"20px"}
                 >
                   <Box
-                    className={`keen-slider__slide number-slide${news.id}`}
-                    pt={"20px"}
+                    display={"block"}
+                    width={"100%"}
+                    borderRadius="15px"
+                    overflow={"hidden"}
                   >
-                    <Box
-                      display={"block"}
-                      width={"100%"}
-                      borderRadius="15px"
-                      overflow={"hidden"}
-                    >
-                      <Image
-                        priority
-                        alt="our new image"
-                        src={news.img}
-                        width={"4031"}
-                        height={"3024"}
-                        layout={"responsive"}
-                        objectFit={"cover"}
-                      />
-                    </Box>
-                    <Box color={"#fff"} pos="relative" dir={currentDir}>
-                      <Heading
-                        fontSize={"x-large"}
-                        py={6}
-                        fontFamily="bukrabold"
-                      >
-                        {news.title}
-                      </Heading>
-                      <Text
-                        fontSize={"smaller"}
-                        textAlign="justify"
-                        fontFamily="bukraregular"
-                      >
-                        {news.desc}
-                      </Text>
-                    </Box>
+                    <Image
+                      priority
+                      alt="our new image"
+                      src={news.img}
+                      width={"4031"}
+                      height={"3024"}
+                      layout={"responsive"}
+                      objectFit={"cover"}
+                    />
+                  </Box>
+                  <Box color={"#fff"} pos="relative" dir={currentDir}>
+                    <Heading fontSize={"x-large"} py={6} fontFamily="bukrabold">
+                      {news.title}
+                    </Heading>
                     <Text
-                      pos={"absolute"}
-                      align={"left"}
-                      top={"-0px"}
-                      borderRadius={"full"}
-                      zIndex={"5"}
-                      bgColor={"#f59329"}
-                      py={3}
-                      px={5}
-                      left={"20px"}
-                      color={"#fff"}
-                      fontSize={"sm"}
-                      w={"120px"}
-                      lineHeight={1}
+                      fontSize={"smaller"}
+                      textAlign="justify"
+                      fontFamily="bukraregular"
                     >
-                      {news.date}
+                      {news.desc}
                     </Text>
                   </Box>
+                  <Text
+                    pos={"absolute"}
+                    align={"left"}
+                    top={"-0px"}
+                    borderRadius={"full"}
+                    zIndex={"5"}
+                    bgColor={"#f59329"}
+                    py={3}
+                    px={5}
+                    left={"20px"}
+                    color={"#fff"}
+                    fontSize={"sm"}
+                    w={"120px"}
+                    lineHeight={1}
+                  >
+                    {news.date}
+                  </Text>
                 </Box>
-              );
-            })
-          ) : (
-            <LoadingScreen />
-          )}
+              </Box>
+            );
+          })}
         </Box>
 
         {loaded && instanceRef.current && (

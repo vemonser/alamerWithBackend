@@ -77,7 +77,7 @@ export function FlexBig({ linkSrc, src, heading, text }) {
             fontFamily={"bukraregular"}
             display={{ base: "none", md: "block", xl: "block" }}
             pt={5}
-            lineHeight="1.6"
+            lineHeight={1}
             color={"#fff"}
             w={"70%"}
             fontSize={["sm", "sm", "md"]}
@@ -118,7 +118,7 @@ export function FlexSmall({ linkSrc, src, heading, text }) {
         flex={{ base: "1 1 1", md: "4 1 34%", xl: "2 1 34%" }}
         cursor="pointer"
         _hover={{
-          flex: ["1 1 1", "4 1 58%", "4 1 58%", "4 1 58%"],
+          flex: ["1 1 1", "4 1 58%",  "4 1 58%", "4 1 58%"],
           opacity: 1,
           transition: "all 750ms ease 150ms",
         }}
@@ -158,7 +158,7 @@ export function FlexSmall({ linkSrc, src, heading, text }) {
             fontFamily={"bukraregular"}
             display={{ base: "none", md: "block", xl: "block" }}
             pt={5}
-            lineHeight="1.6"
+            lineHeight={1}
             color={"#fff"}
             fontSize={["sm", "sm", "md"]}
             w={"70%"}
@@ -187,23 +187,14 @@ export default function Department({ currentDir }) {
 
   const [currentLangFile, setCurrentLangFile] = useState(data);
 
-  const [content, setContent] = useState();
+  const langFile = () => {
+    setCurrentLangFile(currentDir === "rtl" ? data : dataEn);
+  };
+
   useEffect(() => {
-    const getData = async () => {
-      const language = currentDir === "rtl" ? "ar" : "en";
-      const response = await axios.get(
-        `http://futureapp-001-site21.dtempurl.com/public_html/index.php/api/Categoryies`,
-        {
-          headers: {
-            API_PASSWORD: `aYI5202kldXcLAxanvdwkfwsklLZcgfjkLSMDKh6tk`,
-            Lang: language,
-          },
-        }
-      );
-      setContent(response.data);
-    };
-    getData();
-  }, [currentDir]);
+    langFile();
+  }),
+    [currentDir];
 
   const underlineRight = currentDir === "rtl" ? "0%" : "";
   const underlineLeft = currentDir === "ltr" ? "0%" : "";
@@ -211,36 +202,6 @@ export default function Department({ currentDir }) {
   const { t } = useTranslation("home");
 
   const rows = [];
-
-  // {
-  //   content ? (
-  //     content.data.map((item) => {
-  //       return (
-  //         <Box>
-  //           <Text
-  //             py={1}
-  //             fontSize={["md", "md"]}
-  //             fontFamily={"bukralight"}
-  //             mx={4}
-  //             lineHeight={"1.6"}
-  //             key={item.id}
-  //             as={motion.p}
-  //             initial={{ opacity: 0, y: 50 }}
-  //             whileInView={{
-  //               opacity: 1,
-  //               y: 0,
-  //               transition: { duration: 0.75, ease: "easeInOut" },
-  //             }}
-  //           >
-  //             {item.desc}
-  //           </Text>
-  //         </Box>
-  //       );
-  //     })
-  //   ) : (
-  //     <LoadingScreen />
-  //   );
-  // }
 
   for (let i = 0; i < currentLangFile.data.length; i++) {
     let currentI = currentLangFile.data[i];
@@ -366,7 +327,6 @@ export default function Department({ currentDir }) {
       );
     }
   }
-
   return (
     <>
       <Box maxW={["80vw", "80vw", "85vw"]} mx={"auto"} dir={currentDir}>
@@ -442,6 +402,3 @@ export default function Department({ currentDir }) {
     </>
   );
 }
-
-//    { base: "1 1", md: "6 1 64%", xl: "6 1 64%" }  whileHover={{ flex: , transition: ".8 ease" }}
-//    { base: "1 1", md: "4 1 60%", xl: "4 1 59%" }  whileHover={{ flex: , transition: ".8 ease" }}
