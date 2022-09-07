@@ -1,6 +1,8 @@
 import { Box, Text, Flex, Heading, SimpleGrid } from "@chakra-ui/react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import axios from "axios";
+import LoadingScreen from "../LoadingScreen";
 
 import useTranslation from "next-translate/useTranslation";
  
